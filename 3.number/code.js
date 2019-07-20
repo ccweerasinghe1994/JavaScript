@@ -26,4 +26,49 @@ var b = 3;
 b += 3;
 console.log(b);
 
+//operator presedence
+
+var c = 4*(5 +3);
+console.log(c);
+
+var d = ++c;
+console.log(c);
+console.log(d);
+  
+var e = c++;
+console.log(c);
+console.log(e);
+
+var f = 17%3;
+console.log(f);
+
+var g=3 ** 3;
+console.log(g);
+
+var h = Infinity;
+console.log(h);
+
+//not a number
+
+var i = 0/0; // not meaning full
+console.log(i);
+
+//power methord
+var j = Math.pow(2,53);
+console.log(j);
+
+//big number
+var l = Math.pow(2,20000);
+console.log(l);
+
+var number = '3';
+console.log(typeof parseInt(number));
+
+console.log(parseInt('not a number'));
+
+
+
+
+
+
 
