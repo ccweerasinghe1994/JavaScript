@@ -13,3 +13,5 @@ console.log(0 == true);
 console.log(null == true);
 
 console.log(undefined == null);
+console.log(null == null);
+console.log(undefined == undefined);
